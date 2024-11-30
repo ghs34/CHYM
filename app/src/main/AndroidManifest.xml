@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Chymv2"
+        tools:targetApi="31" >
+        <activity
+            android:name=".view.ActivityMaterial"
+            android:exported="false" />
+        <activity
+            android:name=".view.ActivityHistorial"
+            android:exported="false" />
+        <activity
+            android:name=".view.ActivityCrearRutinas"
+            android:exported="false" />
+        <activity
+            android:name=".view.ActivityMisRutinas"
+            android:exported="false" />
+        <activity
+            android:name=".view.ActivityRutinasComunidad"
+            android:windowSoftInputMode="adjustPan"
+            android:exported="false" />
+        <activity
+            android:name=".view.ActivityRecomendedRoutines"
+            android:windowSoftInputMode="adjustPan"
+            android:exported="false" />
+        <activity
+            android:name=".view.ActivitySignIn"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.ActivitySignUp"
+            android:exported="false" />
+        <activity
+            android:name=".view.ActivityMain"
+            android:exported="false"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".view.ActivityExerciceDescription"
+            android:exported="false" />
+        <activity
+            android:name=".view.ActivityRoutineDescription"
+            android:exported="false" />
+    </application>
+
+</manifest>

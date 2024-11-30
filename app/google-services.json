@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "1091751991481",
+    "firebase_url": "https://chym-76bcb-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "chym-76bcb",
+    "storage_bucket": "chym-76bcb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1091751991481:android:9987bc3fe3789c32386368",
+        "android_client_info": {
+          "package_name": "com.example.chymv10"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1091751991481-20p6chk5mmgemnlja49n235gfpvne6c8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEHQlKLX5VhdbEK8ZdNFu3Um3YCMRPrFA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1091751991481-20p6chk5mmgemnlja49n235gfpvne6c8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1091751991481:android:44cbb104d4c43cfb386368",
+        "android_client_info": {
+          "package_name": "com.example.chymv2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1091751991481-20p6chk5mmgemnlja49n235gfpvne6c8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEHQlKLX5VhdbEK8ZdNFu3Um3YCMRPrFA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1091751991481-20p6chk5mmgemnlja49n235gfpvne6c8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
